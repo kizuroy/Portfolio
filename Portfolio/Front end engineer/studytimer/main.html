@@ -1,0 +1,42 @@
+<!DOCTYPE ahtml>
+<html>
+<head>
+    <title>Study Timer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.google.com/icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/6f3103b13c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.gif" alt="Study Timer Logo">
+            <h1>Study Timer</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Statistics</a></li>
+                <li><a href="#">Theme</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+        <div id="timer">
+            <h1>Timer</h1>
+        </div>
+        <div class="stats">
+            <h1>To do list:</h1>
+            <input id="inputFeeld" type="text"><button id="addToDo">ADD</button>
+            <div class="toDos" id="toDoCaontainer">
+            </div>
+        </div>
+    </div>
+    <script src="timer.js"></script>
+    <script src="todo.js"></script>
+</body>
+</html>
